@@ -1,16 +1,59 @@
 # imaging-pipeline-mdt
-Automated imaging pipeline using MDT, WDS, SmartDeploy, and OS Deployer with driver injection, task sequences, BitLocker, and rollback strategies.
+
+Automated imaging pipeline using MDT, WDS, SmartDeploy, and OS Deployer with driver injection, task sequences, and deployment strategies.
 
 ## Overview
 
-This repository documents an automated imaging pipeline for deploying Windows workstations using **MDT**, **WDS**, **SmartDeploy**, and **ManageEngine OS Deployer**.
+This repository documents 3 projects related to imaging pipeline mdt.
 
-### Features
+## Projects
 
-- **Standardized task sequences:** Scripts and configurations to automate Windows 10/11 deployment, software installation, and configuration.
-- **Driver injection and model detection:** Inject drivers based on hardware models for consistent imaging across different devices.
-- **BitLocker and GPO integration:** Enable BitLocker encryption and apply Group Policy settings during deployment.
-- **Rollback and recovery:** Steps for safely rolling back failed imaging and restoring from backups.
-- **Communication templates:** Email and documentation templates for notifying staff and end users about imaging schedules and procedures.
+#### PXE Boot Infrastructure
 
-Use this repository as a starting point for building reliable, repeatable imaging processes.
+Configured PXE boot environment with DHCP options 66/67, TFTP server setup, and network imaging infrastructure for large-scale deployments.
+
+**Technologies:** PXE Boot, DHCP, TFTP, Network Imaging, WDS
+
+**Tags:** `PXE Boot`, `DHCP`, `TFTP`, `Network Imaging`, `WDS`, `Infrastructure`
+
+**Status:** completed
+
+---
+
+#### Windows Imaging Tool Evaluation
+
+Benchmarked MDT/WDS vs SmartDeploy vs FOG vs Macrium Reflect. Considered deployment speed and driver injection.
+
+**Technologies:** MDT, WDS, SmartDeploy, FOG, Macrium Reflect, Driver Injection
+
+**Tags:** `MDT`, `WDS`, `SmartDeploy`, `FOG`, `Imaging Tools`, `Driver Injection`, `Benchmarking`
+
+**Status:** completed
+
+---
+
+#### PXE Boot DHCP Options Review
+
+Validated option 66/67 configs for imaging.
+
+**Technologies:** PXE Boot, DHCP Options, TFTP, Network Imaging, Traffic Analysis
+
+**Tags:** `PXE Boot`, `DHCP`, `TFTP`, `Network Imaging`
+
+**Status:** completed
+
+---
+
+## Usage
+
+This repository serves as documentation and reference material for the projects listed above. For specific implementation details, configuration files, or scripts, please refer to the individual project sections.
+
+## About
+
+These projects are part of a comprehensive IT infrastructure portfolio showcasing enterprise operations, system administration, and technical problem-solving across multiple domains.
+
+## Contact
+
+- **GitHub:** [@kernalpanic-nick](https://github.com/kernalpanic-nick)
+- **Email:** nick.suderno@kernalpanic.net
+- **LinkedIn:** [Nickolas Suderno](https://linkedin.com/in/nickolas-suderno-88508437a)
